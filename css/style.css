@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(248, 204, 208);
+    font-family: "raleway";
+}
+@font-face{
+    font-family: "raleway";
+    src: url(../font/Raleway-SemiBold.ttf);
+}
+@font-face{
+    font-family: "ralewayreg";
+    src: url(../font/Raleway-Regular.ttf);
+}
+.add{
+    text-align: center;
+    padding: 20px 0;
+}
+.add h1{
+    text-transform: uppercase;
+    font-size: 40px; 
+}
+.add input{
+    border: none;
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: "ralewayreg";
+}
+.add button{
+    border: none;
+    background-color: rgb(255, 0, 76);
+    color: white;
+    width: 100px;
+    height: 40px;
+    text-transform: uppercase;
+    font-family: "raleway";
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 30px 50px;
+}
+.bg{
+    width: 100%;
+    height: 350px;
+    background-color: white;
+    box-shadow: 0px 11px 44px -12px rgba(0,0,0,0.3);
+}
+.title{
+    text-align: center;
+    width: 100%;
+    background-color: rgb(255, 0, 76);
+    color: white;
+    text-transform: capitalize;
+}
+.title h3{
+    margin: 0;
+    padding: 10px;
+}
+p{
+    color: black;
+    background-color: rgb(207, 207, 207); 
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 10px 30px;
+}

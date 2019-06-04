@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="add">
+        <h1>To Do List</h1>
+        <input type="text" placeholder="Enter Project Name" id="btn">
+        <button onclick="add()">add</button>
+    </section>
+
+    <section class="grid">
+        <section class="bg" ondrop="drop(event)" ondragover="allowDrag(event)" id="id1">
+            <section class="title">
+                <h3>hold</h3>
+            </section>
+        </section>
+
+        <section class="bg" ondrop="drop(event)" ondragover="allowDrag(event)" id="id2">
+            <section class="title">
+                <h3>progress</h3>
+            </section>
+        </section>
+
+        <section class="bg" ondrop="drop(event)" ondragover="allowDrag(event)" id="id3">
+            <section class="title">
+                <h3>review</h3>
+            </section>
+        </section>
+
+        <section class="bg" ondrop="drop(event)" ondragover="allowDrag(event)" id="id4">
+            <section class="title">
+                <h3>approved</h3>
+            </section>
+        </section>
+
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
